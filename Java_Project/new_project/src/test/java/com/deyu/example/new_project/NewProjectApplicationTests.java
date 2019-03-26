@@ -11,6 +11,7 @@ public class NewProjectApplicationTests {
 
     @Test
     public void contextLoads() {
+        System.out.println("aa");
     }
 
 }
