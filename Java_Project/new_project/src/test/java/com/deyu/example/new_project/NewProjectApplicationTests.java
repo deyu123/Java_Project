@@ -14,4 +14,12 @@ public class NewProjectApplicationTests {
         System.out.println("aa");
     }
 
+    @Test
+    public void jvmTest(){
+
+//        启动类加载器
+        System.out.println("启动类加载器");
+
+    }
+
 }
