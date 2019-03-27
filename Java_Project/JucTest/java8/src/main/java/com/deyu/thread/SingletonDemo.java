@@ -3,10 +3,10 @@ package com.deyu.thread;
 public class SingletonDemo {
 
     private static volatile SingletonDemo instance = null;
-//
-//    private SingletonDemo() {
-//        System.out.println("***********" + Thread.currentThread().getName());
-//    }
+
+    private SingletonDemo() {
+        System.out.println("***********" + Thread.currentThread().getName());
+    }
 //
 //    public static SingletonDemo getInstance() {
 //        if (null == instance) {
