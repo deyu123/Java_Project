@@ -14,7 +14,6 @@ import java.net.URISyntaxException;
 public class HdfsClient {
 
     public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
-
         //1. 获取文件系统
         Configuration configuration = new Configuration();
         //2.这种需要指定 用户名 -DHADOOP_USER_NAME=zdy
