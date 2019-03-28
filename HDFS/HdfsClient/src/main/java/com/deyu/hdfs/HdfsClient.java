@@ -17,7 +17,6 @@ public class HdfsClient {
         //1. 获取文件系统
         Configuration configuration = new Configuration();
         //2.这种需要指定 用户名 -DHADOOP_USER_NAME=zdy
-
 //        configuration.set("fs.defaultFS", "hdfs://hadoop102:9000");
 //        FileSystem fs = FileSystem.get(configuration);
 
