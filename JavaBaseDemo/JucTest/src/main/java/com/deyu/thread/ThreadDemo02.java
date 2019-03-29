@@ -91,8 +91,7 @@ class ShareData
 
 
 /**
- * 
- * @author zhouyang
+ *
  * 题目：现在两个线程，可以操作初始值为零的一个变量，实现一个线程对该变量加1，一个线程对该变量减1，
  * 实现交替，来5轮，变量初始值为零。
  * 1	线程 	操作	资源（类）
@@ -115,8 +114,7 @@ public class ThreadDemo02
 				}
 			}
 		}, "A").start();
-		
-		
+
 		new Thread(() -> {
 			for (int i = 1; i <=10; i++) {
 				try 
@@ -128,7 +126,6 @@ public class ThreadDemo02
 				}
 			}
 		}, "B").start();
-		
 		
 		new Thread(() -> {
 			for (int i = 1; i <=10; i++) {
@@ -153,7 +150,5 @@ public class ThreadDemo02
 				}
 			}
 		}, "D").start();
-		
-		
 	}
 }

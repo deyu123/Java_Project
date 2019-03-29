@@ -10,8 +10,6 @@ import java.util.concurrent.TimeUnit;
  * release（释放）实际上会将信号量的值加1，然后唤醒等待的线程。
  * 
  * 信号量主要用于两个目的，一个是用于多个共享资源的互斥使用，另一个用于并发线程数的控制。
- * @author zhouyang
- * @version 创建时间：2017年11月23日  下午12:28:48
  */
 public class ThreadDemo08 {
 

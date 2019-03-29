@@ -9,9 +9,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
- * 
- * @author zhouyang
- * @version 创建时间：2017年11月23日  下午3:02:46
+ *
  */
 public class ThreadDemo10 {
 

@@ -35,8 +35,7 @@ class Phone
 }
 
 /**
- * 
- * @author zhouyang
+ *
  *多线程的锁（8锁）
  *
  *1	标准访问，请问先打印苹果还是Android
@@ -58,6 +57,7 @@ public class ThreadDemo03
 		new Thread(() -> {
 			try {
 				phone.getIOS();
+//				Phone.getIOS();
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -68,9 +68,9 @@ public class ThreadDemo03
 		new Thread(() -> {
 			try 
 			{
-				//phone.getAndroid();
-				//phone.getHello();
-				phone2.getAndroid();
+				phone.getAndroid();
+//				phone.getHello();
+//				phone2.getAndroid();
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

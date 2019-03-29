@@ -37,8 +37,7 @@ class MyQueue
 
 
 /**
- * 
- * @author zhouyang
+ *
  *读写锁
  *一个线程写，100个线程读取
  */
@@ -49,16 +48,15 @@ public class ThreadDemo05
 		MyQueue q = new MyQueue();
 		
 		new Thread(() -> {
-			q.writeObj("class0706");
+			q.writeObj("class zdy");
 		}, "writeThread").start();
-		
-		
-		
+
 		for (int i = 1; i <=100; i++) 
 		{
 			new Thread(() -> {
 				q.readObj();
-			},String.valueOf(i)).start();
+				// 给线程取名
+			},"线程:" + i).start();
 		}
 		
 	}

@@ -11,8 +11,6 @@ import java.util.concurrent.TimeUnit;
  * 直到最后一个线程到达屏障时，屏障才会开门，所有被屏障拦截的线程才会继续干活。线程进入屏障通过CyclicBarrier的await()方法。
  * 
  * 集齐7颗龙珠就可以召唤神龙
- * @author zhouyang
- * @version 创建时间：2017年11月23日  下午12:29:16
  */
 public class ThreadDemo09 
 {

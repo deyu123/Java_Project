@@ -14,8 +14,6 @@ import com.deyu.enums.CountryEnums;
  * 解释：5个同学陆续离开教室后值班同学才可以关门。
  * 也即	秦灭6国，一统华夏
  * main主线程必须要等前面5个线程完成全部工作后，自己才能开干
- * @author zhouyang
- * @version 创建时间：2017年11月22日  下午10:12:33
  */
 public class ThreadDemo07 
 {
