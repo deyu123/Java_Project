@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b25a97df-e460-4c61-af26-c762270f5fb7" name="Default Changelist" comment="1. add">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/demo/Demo00.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/demo/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/demo/Demo05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/demo/Demo06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/demo/Demo07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/demo/Demo08.java" afterDir="false" />
+    <list default="true" id="b25a97df-e460-4c61-af26-c762270f5fb7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBaseDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/JucTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/jvm/JVM01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/jvm/JVM01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo06.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo07.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo08.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo09.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo10.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo10.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/JucTest/target/" />
@@ -116,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="43" column="52" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="52" />
+            <state relative-caret-position="214">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -259,114 +238,6 @@
             </path>
             <path>
               <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JucTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deyu" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JucTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deyu" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo06" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JucTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deyu" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo08" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JucTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deyu" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JucTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deyu" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadDemo02.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JucTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deyu" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadDemo03.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JucTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deyu" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadDemo05.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JucTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deyu" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadDemo06" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JucTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deyu" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadDemo08" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JucTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deyu" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadDemo09" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -380,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553859061434" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553859283845" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -503,7 +374,7 @@
       <updated>1553768118780</updated>
       <workItem from="1553768120261" duration="33000" />
       <workItem from="1553773177681" duration="643000" />
-      <workItem from="1553822164746" duration="20736000" />
+      <workItem from="1553822164746" duration="21554000" />
     </task>
     <task id="LOCAL-00001" summary="1. add juc Test , &#10;2. add jvm test">
       <created>1553823837784</created>
@@ -512,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553823837784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. add description">
+      <created>1553859247164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553859247165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -524,11 +402,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21412000" />
+    <option name="totallyTimeSpent" value="22230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.230563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -539,7 +416,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24780059" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31085044" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,7 +443,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. add juc Test , &#10;2. add jvm test" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. add juc Test , &#10;2. add jvm test" />
+    <MESSAGE value="1. add description" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. add description" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JucTest/src/main/java/com/deyu/test/warmup/example.jpg">
@@ -863,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/ThreadDemo10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="52" />
+        <state relative-caret-position="214">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
