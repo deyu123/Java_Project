@@ -77,11 +77,20 @@ public class HdfsClient {
 //        fs.close();
 //
         //11. 文件的下载
-        FileOutputStream fos = new FileOutputStream(new File("E:/banhuajfq.txt"));
-        FSDataInputStream fis = fs.open(new Path("/banhua.txt"));
-        IOUtils.copyBytes(fis, fos, configuration);
-        IOUtils.closeStream(fis);
-        IOUtils.closeStream(fos);
+//        FileOutputStream fos = new FileOutputStream(new File("E:/banhuajfq.txt"));
+//        FSDataInputStream fis = fs.open(new Path("/banhua.txt"));
+//        IOUtils.copyBytes(fis, fos, configuration);
+//        IOUtils.closeStream(fis);
+//        IOUtils.closeStream(fos);
+
+        // 12 . listStatus
+
+        // 13. 开流查看
+
+        // 14. 创建流 写入
+
+        // 15. 追加
+
 
     }
 }
