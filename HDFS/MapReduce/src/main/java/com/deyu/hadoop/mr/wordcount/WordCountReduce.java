@@ -1,4 +1,4 @@
-package com.deyu.hadoop.mr;
+package com.deyu.hadoop.mr.wordcount;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
