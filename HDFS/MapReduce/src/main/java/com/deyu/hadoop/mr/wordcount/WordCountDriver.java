@@ -35,8 +35,10 @@ public class WordCountDriver {
 
         //6 . 设置输入地址，输出的地址
 
-        FileInputFormat.setInputPaths(job, new Path("e:/input/aa.txt"));
-        FileOutputFormat.setOutputPath(job, new Path("e:/output"));
+//        FileInputFormat.setInputPaths(job, new Path("e:/input/aa.txt"));
+        FileInputFormat.setInputPaths(job, new Path(args[0]));
+//        FileOutputFormat.setOutputPath(job, new Path("e:/output"));
+        FileOutputFormat.setOutputPath(job, new Path(args[1]));
 //        FileInputFormat.setInputPaths(new JobConf(), path);
 //        FileOutputFormat.setOutputPath(new JobConf(conf), new Path(""));
 

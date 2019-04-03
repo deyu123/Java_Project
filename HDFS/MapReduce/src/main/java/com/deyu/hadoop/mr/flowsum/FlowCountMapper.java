@@ -15,12 +15,14 @@ public class FlowCountMapper extends Mapper<LongWritable, Text, Text, FlowBean> 
         String word = value.toString();
         String[] fields = word.split("\t");
         String phonenum = fields[1];
-        Long upFlow = Long.getLong(fields[fields.length -3]);
-        Long downFlow = Long.getLong(fields[fields.length - 2]);
+        Long upFlow = Long.parseLong(fields[fields.length -3]);
+        Long downFlow = Long.parseLong(fields[fields.length - 2]);
+
+        text.set(phonenum);
 
         flowBean.setUpFlow(upFlow);
         flowBean.setDownFlow(downFlow);
-
+        context.write(text, flowBean);
 
     }
 }
