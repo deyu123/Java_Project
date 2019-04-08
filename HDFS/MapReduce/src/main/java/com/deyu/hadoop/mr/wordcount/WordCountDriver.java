@@ -7,6 +7,7 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 
 import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.CombineTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
@@ -19,6 +20,12 @@ public class WordCountDriver {
         //1.获取配置信息和封装任务
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf);
+
+        // 增加配置, 增加四个小文件切片为 4， 设置切片规则CombineTextInputFormat后， 切片为1
+        // 如果不设置InputFormat，它默认用的是TextInputFormat.class
+        job.setInputFormatClass(CombineTextInputFormat.class);
+        //虚拟存储切片最大值设置4m
+        CombineTextInputFormat.setMaxInputSplitSize(job, 4194304);
 
         //2. 设置jar 加载路径
         job.setJarByClass(WordCountDriver.class);
@@ -34,11 +41,10 @@ public class WordCountDriver {
         job.setOutputValueClass(IntWritable.class);
 
         //6 . 设置输入地址，输出的地址
-
 //        FileInputFormat.setInputPaths(job, new Path("e:/input/aa.txt"));
-        FileInputFormat.setInputPaths(job, new Path(args[0]));
+        FileInputFormat.setInputPaths(job, new Path(args[0]),new Path(args[1]),new Path(args[2]),new Path(args[3]));
 //        FileOutputFormat.setOutputPath(job, new Path("e:/output"));
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+        FileOutputFormat.setOutputPath(job, new Path(args[4]));
 //        FileInputFormat.setInputPaths(new JobConf(), path);
 //        FileOutputFormat.setOutputPath(new JobConf(conf), new Path(""));
 
