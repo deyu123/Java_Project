@@ -22,15 +22,12 @@ public class TableReducer extends Reducer<Text, TableBean, TableBean, NullWritab
                 // 拷贝传递过来的每条订单数据到集合中
                 TableBean orderBean = new TableBean();
                 try {
-
                     BeanUtils.copyProperties(orderBean, tableBean);
-
                 } catch (IllegalAccessException e) {
                     e.printStackTrace();
                 } catch (InvocationTargetException e) {
                     e.printStackTrace();
                 }
-
                 orderBeans.add(orderBean);
             } else {
                 // 产品表
