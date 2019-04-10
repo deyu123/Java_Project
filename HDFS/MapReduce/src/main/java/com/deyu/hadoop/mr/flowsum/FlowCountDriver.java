@@ -25,9 +25,14 @@ public class FlowCountDriver {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(FlowBean.class);
 
+        //增加分区， 不用的号码段，到不同的分区
+        job.setPartitionerClass(ProvincePartitioner.class);
+        job.setNumReduceTasks(5);
+
+
         //3. 输入，输出的地址
-        FileInputFormat.setInputPaths(job, new Path("e:/input/phone_data.txt"));
-        FileOutputFormat.setOutputPath(job, new Path("e:/output"));
+        FileInputFormat.setInputPaths(job, new Path("I:\\workspace\\java\\Java_Project\\HDFS\\MapReduce\\src\\main\\java\\com\\deyu\\hadoop\\mr\\flowsum\\input\\phone_data.txt"));
+        FileOutputFormat.setOutputPath(job, new Path("I:\\workspace\\java\\Java_Project\\HDFS\\MapReduce\\src\\main\\java\\com\\deyu\\hadoop\\mr\\flowsum\\output"));
 
         //4. sumbit
         boolean b = job.waitForCompletion(true);

@@ -40,13 +40,15 @@ public class WordCountDriver {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
 
+        //Combiner 设置，为了性能的提升
+        job.setCombinerClass(WordCountReduce.class);
+
         //6 . 设置输入地址，输出的地址
 //        FileInputFormat.setInputPaths(job, new Path("e:/input/aa.txt"));
-        FileInputFormat.setInputPaths(job, new Path(args[0]),new Path(args[1]),new Path(args[2]),new Path(args[3]));
-//        FileOutputFormat.setOutputPath(job, new Path("e:/output"));
-        FileOutputFormat.setOutputPath(job, new Path(args[4]));
+//        FileInputFormat.setInputPaths(job, new Path(args[0]),new Path(args[1]),new Path(args[2]),new Path(args[3]));
+        FileInputFormat.setInputPaths(job, new Path("I:\\workspace\\java\\Java_Project\\HDFS\\MapReduce\\src\\main\\java\\com\\deyu\\hadoop\\mr\\wordcount\\input\\hello.txt"));
 //        FileInputFormat.setInputPaths(new JobConf(), path);
-//        FileOutputFormat.setOutputPath(new JobConf(conf), new Path(""));
+        FileOutputFormat.setOutputPath(job, new Path("I:\\workspace\\java\\Java_Project\\HDFS\\MapReduce\\src\\main\\java\\com\\deyu\\hadoop\\mr\\wordcount\\ouput"));
 
         //7. 提交
 //        job.submit();
