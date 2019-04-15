@@ -34,6 +34,7 @@ public class TestCompress {
         CompressionInputStream cis = codec.createInputStream(new FileInputStream(new File(fileName)));
 
         //输出流
+        // 可以解压改名，只是流路径变了
         FileOutputStream fos = new FileOutputStream(new File(fileName + ".decoded"));
         //流对拷
         IOUtils.copyBytes(cis, fos,10*1024*1024, false);

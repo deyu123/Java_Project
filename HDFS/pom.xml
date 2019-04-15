@@ -11,6 +11,8 @@
     <modules>
         <module>HdfsClient</module>
         <module>MapReduce</module>
+        <module>ExtendCase</module>
+        <module>zookeeper</module>
     </modules>
 
 </project>
