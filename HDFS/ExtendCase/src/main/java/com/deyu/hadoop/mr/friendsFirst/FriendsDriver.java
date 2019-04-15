@@ -1,4 +1,4 @@
-package com.deyu.hadoop.mr.friends;
+package com.deyu.hadoop.mr.friendsFirst;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -24,8 +24,8 @@ public class FriendsDriver {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(NullWritable.class);
         job.setNumReduceTasks(2);
-        FileInputFormat.setInputPaths(job, new Path("I:\\workspace\\java\\Java_Project\\HDFS\\ExtendCase\\src\\main\\java\\com\\deyu\\hadoop\\mr\\friends\\input"));
-        FileOutputFormat.setOutputPath(job, new Path("I:\\workspace\\java\\Java_Project\\HDFS\\ExtendCase\\src\\main\\java\\com\\deyu\\hadoop\\mr\\friends\\output"));
+        FileInputFormat.setInputPaths(job, new Path("I:\\workspace\\java\\Java_Project\\HDFS\\ExtendCase\\src\\main\\java\\com\\deyu\\hadoop\\mr\\friendsFirst\\input"));
+        FileOutputFormat.setOutputPath(job, new Path("I:\\workspace\\java\\Java_Project\\HDFS\\ExtendCase\\src\\main\\java\\com\\deyu\\hadoop\\mr\\friendsFirst\\output"));
 
         boolean b = job.waitForCompletion(true);
         System.exit(b?0:1);

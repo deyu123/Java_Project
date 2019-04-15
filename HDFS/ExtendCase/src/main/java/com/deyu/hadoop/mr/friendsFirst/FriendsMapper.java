@@ -1,4 +1,4 @@
-package com.deyu.hadoop.mr.friends;
+package com.deyu.hadoop.mr.friendsFirst;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
