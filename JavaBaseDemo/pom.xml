@@ -11,6 +11,7 @@
     <modules>
         <module>JucTest</module>
         <module>hive</module>
+        <module>flume</module>
     </modules>
 
 </project>

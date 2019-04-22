@@ -44,7 +44,13 @@ public class ZookeeperTest {
                 @Override
                 public void process(WatchedEvent watchedEvent) {
 
-                    getChildren(path);
+                    try {
+                        getChildren(path);
+                    } catch (KeeperException e) {
+                        e.printStackTrace();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
 
                 }
             });
