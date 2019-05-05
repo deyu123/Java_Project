@@ -12,6 +12,9 @@
         <module>JucTest</module>
         <module>hive</module>
         <module>flume</module>
+        <module>kafka</module>
+        <module>hbase</module>
+        <module>azkaban</module>
     </modules>
 
 </project>

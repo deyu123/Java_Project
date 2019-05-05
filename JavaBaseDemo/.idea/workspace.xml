@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0049ab6f-6a2d-4047-8a26-881c0e382729" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flume/flume.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flume/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/CustomInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HDFS/zookeeper/src/main/java/com/deyu/hadoop/zookeeper/ZookeeperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HDFS/zookeeper/src/main/java/com/deyu/hadoop/zookeeper/ZookeeperTest.java" afterDir="false" />
+    <list default="true" id="0049ab6f-6a2d-4047-8a26-881c0e382729" name="Default Changelist" comment="1.update workspace.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azkaban/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azkaban/src/main/java/com/deyu/azkaban/AzkabanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/myinterceptor/myinterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/hbase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/kafka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/CustomConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/CustomProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/TestFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/interceptor/CounterInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/interceptor/TimeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -17,19 +27,36 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hive/target/" />
     <ignored path="$PROJECT_DIR$/flume/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/target/" />
+    <ignored path="$PROJECT_DIR$/hbase/target/" />
+    <ignored path="$PROJECT_DIR$/azkaban/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/CustomInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="475">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,17 +64,52 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySource.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="361">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/azkaban/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/azkaban/src/main/java/com/deyu/azkaban/AzkabanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/maven/org/apache/hbase/hbase-client/1.3.1/hbase-client-1.3.1-sources.jar!/org/apache/hadoop/hbase/client/Put.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/CustomInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,12 +118,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+            <state relative-caret-position="1121">
+              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
-                <element signature="e#1682#1683#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/myinterceptor/myinterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,58 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flume/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://I:/Java/jdk1.8.0_131/src.zip!/java/io/FileOutputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://I:/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume/flume.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hive/src/test/java/com/deyu/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JucTest/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="304">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -141,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/Lower.java" />
         <option value="$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/ETLUtil.java" />
         <option value="$PROJECT_DIR$/hive/pom.xml" />
@@ -152,6 +187,21 @@
         <option value="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySink.java" />
         <option value="$PROJECT_DIR$/flume/pom.xml" />
         <option value="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySource.java" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/TestFuture.java" />
+        <option value="$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/CustomConsumer.java" />
+        <option value="$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/interceptor/TimeInterceptor.java" />
+        <option value="$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/interceptor/CounterInterceptor.java" />
+        <option value="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/com/deyu/flume/custom/CustomInterceptor.java" />
+        <option value="$PROJECT_DIR$/flume/src/main/java/custom/CustomInterceptor.java" />
+        <option value="$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/CustomProducer.java" />
+        <option value="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/myinterceptor/myinterceptor.java" />
+        <option value="$PROJECT_DIR$/hbase/pom.xml" />
+        <option value="$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseAPI.java" />
+        <option value="$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/azkaban/pom.xml" />
+        <option value="$PROJECT_DIR$/azkaban/src/main/java/com/deyu/azkaban/AzkabanTest.java" />
       </list>
     </option>
   </component>
@@ -170,25 +220,15 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="flume" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="flume" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2872" />
-    <option name="y" value="328" />
-    <option name="width" value="977" />
-    <option name="height" value="709" />
+    <option name="x" value="-682" />
+    <option name="y" value="-9" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -198,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -206,75 +247,32 @@
               <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="flume" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="flume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="flume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="flume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="flume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="flume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="flume" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="hive" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555928091509" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557053331995" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume" />
+    <property name="last_opened_file_path" value="I:/Java/jdk1.8.0_131/lib/tools.jar" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\workspace\java\Java_Project\JavaBaseDemo\kafka\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -288,7 +286,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.HBaseAPI">
+    <configuration name="CustomConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deyu.kafka.CustomConsumer" />
+      <module name="kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deyu.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deyu.kafka.CustomProducer" />
+      <module name="kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deyu.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HBaseAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deyu.hbase.HBaseAPI" />
+      <module name="hbase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deyu.hbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VideoETLRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.deyu.hive.VideoETLRunner" />
       <module name="hive" />
@@ -317,6 +354,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HBaseAPI" />
+        <item itemvalue="Application.CustomProducer" />
+        <item itemvalue="Application.CustomConsumer" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.VideoETLRunner" />
       </list>
@@ -341,7 +381,16 @@
       <workItem from="1555420011933" duration="3337000" />
       <workItem from="1555461432699" duration="2914000" />
       <workItem from="1555813681015" duration="1951000" />
-      <workItem from="1555903494669" duration="12049000" />
+      <workItem from="1555903494669" duration="12319000" />
+      <workItem from="1556106789426" duration="16000" />
+      <workItem from="1556106809121" duration="4000" />
+      <workItem from="1556283029040" duration="554000" />
+      <workItem from="1556283648404" duration="1997000" />
+      <workItem from="1556324844654" duration="32000" />
+      <workItem from="1556324939012" duration="21472000" />
+      <workItem from="1556453123731" duration="4444000" />
+      <workItem from="1556499823471" duration="1707000" />
+      <workItem from="1557052245059" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="1.add hive test">
       <created>1555411064434</created>
@@ -357,16 +406,30 @@
       <option name="project" value="LOCAL" />
       <updated>1555490385084</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.add flume sink , source , interceptor">
+      <created>1555928085983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555928085983</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.update workspace.xml">
+      <created>1555928181677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555928181677</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23312000" />
+    <option name="totallyTimeSpent" value="55117000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2682" y="263" width="781" height="567" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42323652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24463807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,36 +438,50 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49878347" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.41202345" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25073314" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.27419356" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.20381232" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.2829912" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info active="true" anchor="right" id="Maven" order="5" visible="true" weight="0.5338866" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.29624665" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_DETAILS" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.add hive test" />
     <MESSAGE value="1.add video ETL" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.add video ETL" />
+    <MESSAGE value="1.add flume sink , source , interceptor" />
+    <MESSAGE value="1.update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.update workspace.xml" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>records</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JucTest/src/main/java/com/deyu/demo/Demo00.java">
@@ -414,13 +491,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hive/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -458,17 +528,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://I:/Java/jdk1.8.0_131/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="129" selection-start-line="129" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://I:/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flume/flume.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/hive/src/test/java/com/deyu/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -479,62 +580,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flume/flume.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/CustomInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/hive/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="304">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/custom/CustomInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/com/deyu/flume/myinterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/CustomProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://I:/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
+    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/TestFuture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://I:/Java/jdk1.8.0_131/src.zip!/java/io/FileOutputStream.java">
+    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/CustomConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
+        <state relative-caret-position="1368">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flume/pom.xml">
+    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/interceptor/TimeInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="76">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/interceptor/CounterInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/org/apache/hbase/hbase-client/1.3.1/hbase-client-1.3.1.jar!/org/apache/hadoop/hbase/client/Put.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#1190#1191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.jar!/org/apache/hadoop/conf/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="190" column="11" selection-start-line="190" selection-start-column="11" selection-end-line="190" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/CustomInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        <state relative-caret-position="1121">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="209">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/myinterceptor/myinterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flume/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/org/apache/hbase/hbase-client/1.3.1/hbase-client-1.3.1-sources.jar!/org/apache/hadoop/hbase/client/Put.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azkaban/src/main/java/com/deyu/azkaban.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azkaban/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azkaban/src/main/java/com/deyu/azkaban/AzkabanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -592,7 +825,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>hive</last-edited>
+          <last-edited>flume</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
