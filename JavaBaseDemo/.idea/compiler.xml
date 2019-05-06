@@ -8,10 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="azkaban" />
         <module name="flume" />
-        <module name="hbase" />
         <module name="hive" />
         <module name="JucTest" />
         <module name="kafka" />
+        <module name="weibo" />
       </profile>
     </annotationProcessing>
   </component>
