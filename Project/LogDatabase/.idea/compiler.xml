@@ -6,13 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="azkaban" />
-        <module name="flume" />
-        <module name="hive" />
-        <module name="JucTest" />
-        <module name="kafka" />
-        <module name="kylin" />
-        <module name="weibo" />
+        <module name="hivefunction" />
+        <module name="logcollector" />
       </profile>
     </annotationProcessing>
   </component>
