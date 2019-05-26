@@ -1,47 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0049ab6f-6a2d-4047-8a26-881c0e382729" name="Default Changelist" comment="1.add HBase &quot;WeiBo&quot; project">
-      <change afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/handwriting/QuickRem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogETLInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogTypeInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kylin/kylin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kylin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kylin/src/main/java/com/deyu/kylin/TestKylin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/LogDatabase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/hivefunction/hivefunction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/hivefunction/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/hivefunction/src/main/java/com/deyu/udf/BaseFieldUDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/hivefunction/src/main/java/com/deyu/udtf/EventJsonUDTF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/logcollector.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com.deyu.appclient/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppActive_background.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppActive_foreground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppAd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppErrorLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppFavorites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppNewsDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppPraise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/java/com/deyu/bean/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/log-collector/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/LogDatabase/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="0049ab6f-6a2d-4047-8a26-881c0e382729" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/SingletonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flume/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flume/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/JucTest/target/" />
@@ -96,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogETLInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="368">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1377#1378#0" expanded="true" />
@@ -123,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/myinterceptor/myinterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="589">
               <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -160,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
+            <state relative-caret-position="1216">
               <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -172,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="361">
               <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -409,7 +370,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558355800471" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558862221242" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume" />
     <property name="last_opened_file_path" value="I:/Java/jdk1.8.0_131/lib/tools.jar" />
@@ -561,7 +522,8 @@
       <workItem from="1558486722193" duration="15000" />
       <workItem from="1558753319053" duration="615000" />
       <workItem from="1558755662944" duration="1285000" />
-      <workItem from="1558861744469" duration="292000" />
+      <workItem from="1558861744469" duration="478000" />
+      <workItem from="1558862229780" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="1.add hive test">
       <created>1555411064434</created>
@@ -619,17 +581,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557146263547</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.add flume log etl interceptor, type interceptor">
+      <created>1558862131664</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558862131664</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90604000" />
+    <option name="totallyTimeSpent" value="90803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25871313" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26206434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -644,7 +613,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.4032258" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.29765397" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.20381232" />
@@ -674,7 +643,8 @@
     <MESSAGE value="1.update workspace.xml" />
     <MESSAGE value="1.add azkaban ,HBase,kafka" />
     <MESSAGE value="1.add HBase &quot;WeiBo&quot; project" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.add HBase &quot;WeiBo&quot; project" />
+    <MESSAGE value="1.add flume log etl interceptor, type interceptor" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.add flume log etl interceptor, type interceptor" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -976,47 +946,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogTypeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/myinterceptor/myinterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
+        <state relative-caret-position="589">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#883#884#0" expanded="true" />
             <element signature="e#933#934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flume/flume.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1031,20 +988,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogTypeInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="1216">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flume/flume.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogETLInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="368">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1377#1378#0" expanded="true" />
