@@ -1,47 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e86be1-1d0b-4f3b-a461-3b49156d7fc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../JavaBaseDemo/JucTest/src/main/java/com/deyu/handwriting/QuickRem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaBaseDemo/flume/src/main/java/com/deyu/flume/interceptor/LogETLInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaBaseDemo/flume/src/main/java/com/deyu/flume/interceptor/LogTypeInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaBaseDemo/flume/src/main/java/com/deyu/flume/interceptor/LogUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaBaseDemo/kylin/kylin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaBaseDemo/kylin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaBaseDemo/kylin/src/main/java/com/deyu/kylin/TestKylin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDatabase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hivefunction/hivefunction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hivefunction/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hivefunction/src/main/java/com/deyu/udf/BaseFieldUDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hivefunction/src/main/java/com/deyu/udtf/EventJsonUDTF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/logcollector.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com.deyu.appclient/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppActive_background.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppActive_foreground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppAd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppErrorLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppFavorites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppNewsDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppPraise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/java/com/deyu/bean/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-collector/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaBaseDemo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaBaseDemo/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="33e86be1-1d0b-4f3b-a461-3b49156d7fc6" name="Default Changelist" comment="1.add xml">
       <change beforePath="$PROJECT_DIR$/../../JavaBaseDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaBaseDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaBaseDemo/JucTest/src/main/java/com/deyu/thread/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaBaseDemo/JucTest/src/main/java/com/deyu/thread/SingletonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaBaseDemo/flume/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaBaseDemo/flume/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaBaseDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaBaseDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBaseDemo/hive/src/main/java/com/deyu/hive/Lower.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaBaseDemo/hive/src/main/java/com/deyu/hive/Lower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/log-collector/src/main/java/com.deyu.appclient/AppMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
-              <caret line="563" column="13" selection-start-line="563" selection-start-column="13" selection-end-line="563" selection-end-column="13" />
+              <caret line="481" column="15" lean-forward="true" selection-start-line="481" selection-start-column="15" selection-end-line="481" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,21 +163,26 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hivefunction" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hivefunction" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="log-collector" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="log-collector" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="LogDatabase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="LogDatabase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="LogDatabase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
@@ -238,31 +206,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="LogDatabase" type="b2602c69:ProjectViewProjectNode" />
               <item name="LogDatabase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LogDatabase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LogDatabase" type="462c0819:PsiDirectoryNode" />
-              <item name="hivefunction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LogDatabase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LogDatabase" type="462c0819:PsiDirectoryNode" />
-              <item name="hivefunction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LogDatabase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LogDatabase" type="462c0819:PsiDirectoryNode" />
-              <item name="hivefunction" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LogDatabase" type="b2602c69:ProjectViewProjectNode" />
@@ -299,16 +248,39 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.deyu.appclient" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LogDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="log-collector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558354647314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558862701484" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -335,6 +307,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.AppMain">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="LogDatabase" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="LogDatabase" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.deyu.appclient.AppMain" />
       <module name="logcollector" />
@@ -360,25 +351,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="LogDatabase" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="LogDatabase" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -411,17 +383,28 @@
       <workItem from="1558755655457" duration="3000" />
       <workItem from="1558769477298" duration="207000" />
       <workItem from="1558861713448" duration="17000" />
+      <workItem from="1558862246304" duration="457000" />
+      <workItem from="1559304336808" duration="213000" />
+      <workItem from="1559307319401" duration="35000" />
+      <workItem from="1559700404087" duration="12000" />
     </task>
+    <task id="LOCAL-00001" summary="1.add xml">
+      <created>1558862316820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558862316820</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23075000" />
+    <option name="totallyTimeSpent" value="23792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26206434" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20241287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -430,13 +413,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24193548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24193548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.24780059" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -447,7 +430,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.16957104" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.16957104" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
@@ -455,6 +438,50 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.add xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.add xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -649,7 +676,7 @@
     <entry file="file://$PROJECT_DIR$/log-collector/src/main/java/com.deyu.appclient/AppMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="563" column="13" selection-start-line="563" selection-start-column="13" selection-end-line="563" selection-end-column="13" />
+          <caret line="481" column="15" lean-forward="true" selection-start-line="481" selection-start-column="15" selection-end-line="481" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -698,12 +725,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log-collector/src/main/resources/logback.xml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
   <component name="masterDetails">

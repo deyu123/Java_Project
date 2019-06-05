@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0049ab6f-6a2d-4047-8a26-881c0e382729" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/Lower.java" beforeDir="false" afterPath="$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/Lower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/LogDatabase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/LogDatabase/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/JucTest/target/" />
@@ -37,114 +39,106 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JucTest/src/main/java/com/deyu/thread/SingletonDemo.java">
+        <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1273">
-              <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+            <state relative-caret-position="114">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="76">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo/controller/WeiboController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo/WeiboAPP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1557146117891" expanded="true" signature="302:346" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo/service/WeiboService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/ETLUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/Lower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/VideoETLMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/VideoETLRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogETLInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/interceptor/CounterInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogTypeInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/myinterceptor/myinterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/CustomInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume/flume.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -162,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/Lower.java" />
         <option value="$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/ETLUtil.java" />
         <option value="$PROJECT_DIR$/hive/pom.xml" />
         <option value="$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/VideoETLRunner.java" />
@@ -205,6 +198,7 @@
         <option value="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogETLInterceptor.java" />
         <option value="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogUtils.java" />
         <option value="$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogTypeInterceptor.java" />
+        <option value="$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/Lower.java" />
       </list>
     </option>
   </component>
@@ -238,7 +232,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1910" />
+    <option name="x" value="-824" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
@@ -325,6 +319,123 @@
             <path>
               <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="mr1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="mr2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
               <item name="hive" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -356,13 +467,58 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,6 +680,9 @@
       <workItem from="1558755662944" duration="1285000" />
       <workItem from="1558861744469" duration="478000" />
       <workItem from="1558862229780" duration="13000" />
+      <workItem from="1558953334769" duration="826000" />
+      <workItem from="1559045047848" duration="180000" />
+      <workItem from="1559091691986" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="1.add hive test">
       <created>1555411064434</created>
@@ -592,13 +751,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90803000" />
+    <option name="totallyTimeSpent" value="92433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26206434" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20576407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -656,111 +815,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://F:/maven/org/apache/hbase/hbase-client/1.3.1/hbase-client-1.3.1-sources.jar!/org/apache/hadoop/hbase/client/Put.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/src/main/java/com/deyu/azkaban.java" />
-    <entry file="file://$PROJECT_DIR$/azkaban/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/src/main/java/com/deyu/azkaban/AzkabanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mapreduce.java" />
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr1/ReadFruitMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr1/WriteFruitRuducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr1/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr2/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo.java" />
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr2/ReadMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr2/WriteReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/maven/org/apache/hbase/hbase-client/1.3.1/hbase-client-1.3.1-sources.jar!/org/apache/hadoop/hbase/client/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo/util/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -772,16 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo/service/WeiboService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,27 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
           <caret line="688" column="20" lean-forward="true" selection-start-line="688" selection-start-column="20" selection-end-line="688" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo/controller/WeiboController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo/WeiboAPP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1557146117891" expanded="true" signature="302:346" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,19 +969,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogTypeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="190">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -968,7 +981,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/myinterceptor/myinterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="513">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -978,19 +991,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/CustomInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
+        <state relative-caret-position="1121">
           <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1000,7 +1003,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/MySource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="209">
           <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1011,15 +1014,186 @@
     <entry file="file://$PROJECT_DIR$/flume/flume.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/azkaban/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azkaban/src/main/java/com/deyu/azkaban/AzkabanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogTypeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/CustomInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flume/src/main/java/com/deyu/flume/interceptor/LogETLInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="252">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1377#1378#0" expanded="true" />
             <element signature="e#1431#1432#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr1/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr1/WriteFruitRuducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr1/ReadFruitMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr2/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr2/ReadMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/mr2/WriteReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/deyu/hbase/HBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo/controller/WeiboController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo/WeiboAPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1557146117891" expanded="true" signature="302:346" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/weibo/src/main/java/com/deyu/hbase/weibo/service/WeiboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/ETLUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/Lower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/VideoETLMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/deyu/hive/VideoETLRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/deyu/kafka/interceptor/CounterInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
