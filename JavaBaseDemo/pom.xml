@@ -16,6 +16,7 @@
         <module>hbase</module>
         <module>azkaban</module>
         <module>kylin</module>
+        <module>spark</module>
     </modules>
 
 </project>

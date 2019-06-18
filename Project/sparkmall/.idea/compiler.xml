@@ -6,17 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="azkaban" />
-        <module name="flume" />
-        <module name="hive" />
-        <module name="JucTest" />
-        <module name="kafka" />
-        <module name="kylin" />
-        <module name="weibo" />
+        <module name="sparkmallcommon" />
+        <module name="sparkmallmock" />
+        <module name="sparkmalloffline" />
+        <module name="sparkmallrealtime" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spark" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
