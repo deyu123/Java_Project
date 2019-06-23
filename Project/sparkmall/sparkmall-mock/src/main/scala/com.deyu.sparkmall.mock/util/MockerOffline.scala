@@ -98,8 +98,8 @@ object MockerOffline {
 
     val rows = new ListBuffer[UserVisitAction]()
 
-    val startDate = new SimpleDateFormat("yyyy-MM-dd").parse("2018-11-26")
-    val endDate = new SimpleDateFormat("yyyy-MM-dd").parse("2018-11-27")
+    val startDate = new SimpleDateFormat("yyyy-MM-dd").parse("2019-01-01")
+    val endDate = new SimpleDateFormat("yyyy-MM-dd").parse("2019-12-31")
     val randomDate = RandomDate(startDate, endDate, logAboutNum)
     for (i <- 1 to sessionNum) {
       val userId = RandomNum(1, userNum)
