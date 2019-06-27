@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hivefunction" />
-        <module name="logcollector" />
+        <module name="log-collector" />
       </profile>
     </annotationProcessing>
   </component>
