@@ -9,6 +9,9 @@ public interface PublisherService {
     public Map getDauHour(String date);
 
 
+    public Double getOrderAmount(String date);
+
+    public Map getOrderAmountHour(String tdate);
 }
 
 

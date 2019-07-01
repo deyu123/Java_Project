@@ -14,8 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author zhouyulong
- * @date 2018/10/28 下午2:43.
  */
 @Controller
 @RequestMapping(value = "/")

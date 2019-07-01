@@ -5,7 +5,7 @@ import java.util.Date
 
 import com.alibaba.fastjson.JSON
 import com.deyu.gmall.dw.bean.StartUpLog
-import com.deyu.gmall.dw.dwlogger.constant.GmallConstants
+import com.deyu.gmall.dw.common.constant.GmallConstants
 import com.deyu.gmall.dw.realtime.util.{MyKafkaUtil, RedisUtil}
 import org.apache.hadoop.conf.Configuration
 import org.apache.kafka.clients.consumer.ConsumerRecord
