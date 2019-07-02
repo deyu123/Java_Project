@@ -10,8 +10,12 @@
     <packaging>pom</packaging>
     <modules>
         <module>dw-common</module>
+        <module>dw-realtime</module>
+        <module>dw-mock</module>
+        <module>dw-logger</module>
         <module>dw-canal</module>
     </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
